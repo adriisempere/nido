@@ -1,13 +1,10 @@
-# Nido
-Take control of your money. A full-stack app to manage expenses, budgets and long-term investments — web + iOS.
-
 🇬🇧 [English](#english) | 🇪🇸 [Español](#español)
 
 ---
 
 # English
 
-# [APP NAME] — Personal Finance App
+# Nido — Personal Finance App
 
 A full-stack personal finance app to track expenses, income, budgets and passive investments. Available on web and natively on iPhone.
 
