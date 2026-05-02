@@ -1,17 +1,22 @@
-const express = require("express");
-const cors = require("cors");
-require("dotenv").config();
+const express = require('express')
+const cors = require('cors')
+require('dotenv').config()
 
-const app = express();
+const authRoutes = require('./routes/auth.routes')
 
-app.use(cors());
-app.use(express.json());
+const app = express()
 
-app.get("/", (req, res) => {
-  res.json({ message: "🪺 Nido API funcionando" });
-});
+app.use(cors())
+app.use(express.json())
 
-const PORT = process.env.PORT || 3000;
+app.use('/api/auth', authRoutes)
+
+app.get('/', (req, res) => {
+  res.json({ message: '🪺 Nido API funcionando' })
+})
+
+const PORT = process.env.PORT || 3000
+
 app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
-});
+  console.log(`Servidor corriendo en http://localhost:${PORT}`)
+})
