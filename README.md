@@ -1,5 +1,5 @@
 🇬🇧 [English](#english) | 🇪🇸 [Español](#español)
-
+- [Changelog](CHANGELOG.md)
 ---
 
 # English
