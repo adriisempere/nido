@@ -14,14 +14,14 @@ A full-stack personal finance app to track expenses, income, budgets and passive
 
 | Part | Technology | Version |
 |---|---|---|
-| Backend | Node.js | v22.x |
-| Backend framework | Express | v4.x |
-| Database | PostgreSQL | v16.x |
-| Query builder | pg (node-postgres) | v8.x |
+| Backend | Node.js | v25.9.0 |
+| Backend framework | Express | -- |
+| Database | PostgreSQL | v16.13 |
+| Query builder | pg (node-postgres) | -- |
 | Authentication | JWT + bcrypt | — |
-| Web frontend | React + Vite | React v19.x |
-| Styles | Tailwind CSS | v4.x |
-| Web charts | Recharts | v2.x |
+| Web frontend | React + Vite | React -- |
+| Styles | Tailwind CSS | -- |
+| Web charts | Recharts | -- |
 | iOS app | SwiftUI + Charts | iOS 17+ |
 | Backend deploy | Railway or Render | — |
 | Database deploy | Supabase (PostgreSQL) | — |
@@ -152,7 +152,7 @@ Every deposit or withdrawal for an investment. Used to calculate real return.
 
 # Español
 
-# [NOMBRE APP] — App de Finanzas Personales
+# Nido — App de Finanzas Personales
 
 Aplicación de gestión de finanzas personales: gastos, ingresos, presupuestos e inversión pasiva. Disponible en web y como app nativa para iPhone.
 
